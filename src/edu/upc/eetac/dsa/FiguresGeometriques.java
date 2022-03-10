@@ -1,4 +1,5 @@
 package edu.upc.eetac.dsa;
 
-public class FiguresGeometriques {
+public abstract class FiguresGeometriques {
+    abstract public void calculArea();
 }
