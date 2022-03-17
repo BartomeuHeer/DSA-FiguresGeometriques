@@ -1,5 +1,8 @@
 package edu.upc.eetac.dsa;
 
+import java.util.Collection;
+import java.util.Iterator;
+
 public class Triangle extends FiguresGeometriques {
     private double area;
     private double base;
@@ -31,7 +34,10 @@ public class Triangle extends FiguresGeometriques {
     }
 
     @Override
-    public void calculArea() {
-        area = (base*altura)/2;
+    public double calculArea() {
+        return (base*altura)/2;
     }
+
+
+
 }

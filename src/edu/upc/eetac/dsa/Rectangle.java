@@ -1,5 +1,8 @@
 package edu.upc.eetac.dsa;
 
+import java.util.Collection;
+import java.util.Iterator;
+
 public class Rectangle extends FiguresGeometriques{
     private double costat;
     private double base;
@@ -29,7 +32,12 @@ public class Rectangle extends FiguresGeometriques{
     }
 
     @Override
-    public void calculArea() {
-        area = base*costat;
+    public double calculArea() {
+        return base*costat;
     }
+
+
+
+
 }
+
